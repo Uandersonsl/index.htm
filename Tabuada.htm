@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tabuada dinâmica</title>
+</head>
+<body>
+  <script>
+  var num = prompt("informa um número válido");
+  
+  let max = prompt("digite o máximo da operação  ");
+  
+  if(isNaN(num || max)){
+  alert("você não digitou um número válido");
+  }
+  
+  for(let i = 0;i <= max;i++){
+  resp = num*i;
+  document.write(num + "x" +i+ "=" + resp+ "<br>" );
+  }
+  
+  
+    
+  </script>
+    
+  
+  
+  
+</body>
+</html>
